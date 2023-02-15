@@ -1,0 +1,14 @@
+{
+    "name": "lawyerify-netlify-cms",
+    "version": "1.0.0",
+    "homepage": "https://www.lawyerify.fr",
+    "repository": "https://github.com/hugolify/lawyerify-netlify-cms",
+    "bugs": {
+        "url": "https://github.com/hugolify/lawyerify-netlify-cms/issues"
+    },
+    "author": {
+        "name": "Sébastien Moulène",
+        "url": "https://www.sebastienmoulene.com/"
+    },
+    "license": "MIT"
+}
