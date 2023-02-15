@@ -13,7 +13,7 @@ export const availableBlocks = [
     'figure',
     'gallery',
     'images',
-    'instagram',
+    // 'instagram',
     'paragraph',
     'selectedexpertises',
     'selectedoffices',
