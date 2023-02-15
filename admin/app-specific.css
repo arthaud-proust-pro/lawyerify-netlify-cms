@@ -4,6 +4,11 @@
     --primary-color: #060C84;
 }
 
+[class*="-CustomIconWrapper"] img {
+    height: 20px;
+    width: auto;
+}
+
 aside [href="#/collections/offices"] span::before {
     content: '\F1DD';
 }
