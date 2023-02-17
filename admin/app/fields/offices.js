@@ -1,6 +1,6 @@
 export const offices = {
     name: 'offices',
-    label: 'Rattaché aux cabinets',
+    label: 'Rattaché à un ou plusieurs cabinets ?',
     widget: 'relation',
     collection: 'offices',
     search_fields: ['title'],

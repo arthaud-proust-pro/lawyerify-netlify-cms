@@ -1,6 +1,6 @@
 export const expertises = {
-    name: 'expertises',
-    label: 'Expert en ?',
+    name: 'items',
+    label: 'Expertises',
     widget: 'relation',
     collection: 'expertises',
     search_fields: ['title'],

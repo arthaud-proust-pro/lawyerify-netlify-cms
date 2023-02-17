@@ -1,11 +1,11 @@
 import { title } from '../fields/title.js'
-import { expertises } from '../fields/expertises.js'
+import { expertises } from '../fields/expertises-items.js'
 import { show_more } from '../fields/show-more.js'
 import { background } from '../fields/background.js'
 
 export const block_selectedexpertises = {
     name: 'selected-expertises',
-    label: 'Selection d’expertises',
+    label: 'Sélection d’expertises',
     widget: 'object',
     required: false,
     i18n: true,
