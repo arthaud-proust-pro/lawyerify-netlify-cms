@@ -41,9 +41,10 @@
 
 ## Install
 
-Edit `config/_default/module.yaml` to install the `hugolify-netlify-cms` module:
+Edit `config/_default/module.yaml` to install the `lawyerify-netlify-cms` module with `hugolify-netlify-cms`:
 ```yml
 imports:
+  - path: github.com/hugolify/lawyerify-netlify-cms
   - path: github.com/hugolify/hugolify-netlify-cms
 ```
 
