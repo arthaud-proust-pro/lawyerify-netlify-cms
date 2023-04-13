@@ -1,4 +1,5 @@
 import { isNotIndex } from '../fields/is-not-index.js'
+import { draft } from '../fields/draft.js'
 import { title } from '../fields/title.js'
 import { description } from '../fields/description.js'
 import { body } from '../fields/body.js'
@@ -24,6 +25,7 @@ const expertises = {
 
     fields: [
         isNotIndex,
+        draft,
         title,
         description,
         body,
