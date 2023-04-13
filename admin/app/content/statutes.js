@@ -4,8 +4,8 @@ import { title } from '../fields/title.js'
 
 const statutes = {
     name: 'statutes',
-    label: 'Statutes',
-    label_singular: 'Status',
+    label: 'Statuts',
+    label_singular: 'Statut',
     folder: 'content/statutes',
     create: true,
     description: 'Tous les statuts',
@@ -13,12 +13,12 @@ const statutes = {
     editor: { preview: false },
     // #i18n: true,
 
-    nested: { depth: 2 },
-    filter: { field: 'isIndex', value: false },
-    summary: '{{title}}',
-
     slug: '{{slug}}',
     path: '{{slug}}/_index',
+    summary: '{{title}}',
+
+    nested: { depth: 2 },
+    filter: { field: 'isIndex', value: false },
 
     fields: [
         isNotIndex,
