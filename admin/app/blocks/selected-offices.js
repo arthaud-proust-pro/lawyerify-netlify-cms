@@ -1,4 +1,4 @@
-import { title } from '../fields/title.js'
+import { heading } from '../fields/heading.js'
 import { offices } from '../fields/offices-items.js'
 import { show_more } from '../fields/show-more.js'
 import { background } from '../fields/background.js'
@@ -12,7 +12,7 @@ export const block_selectedoffices = {
     collapsed: false,
     summary: '{{title}}',
     fields: [
-        title,
+        heading,
         { name: 'section', default: 'offices', widget: 'hidden' },
         offices,
         show_more,
