@@ -15,3 +15,6 @@ aside [href="#/collections/offices"] span::before {
 aside [href="#/collections/expertises"] span::before {
     content: '\F585';
 }
+aside [href="#/collections/statutes"] span::before {
+    content: '\F8A7';
+}

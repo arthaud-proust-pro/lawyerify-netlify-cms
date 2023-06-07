@@ -4,9 +4,9 @@ export const offices = {
     widget: 'relation',
     collection: 'offices',
     search_fields: ['title'],
-    value_field: '{{title}}',
+    value_field: '{{filename}}',
     display_fields: ['title'],
-    required: false,
     multiple: true,
+    required: false,
     i18n: 'duplicate'
 }

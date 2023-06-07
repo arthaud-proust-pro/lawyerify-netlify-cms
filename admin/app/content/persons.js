@@ -2,10 +2,9 @@ import { isNotIndex } from '../fields/is-not-index.js'
 import { draft } from '../fields/draft.js'
 import { title } from '../fields/title.js'
 import { description } from '../fields/description.js'
-import { offices } from '../fields/offices.js'
 import { statutes } from '../fields/statutes.js'
-import { relatedPersons } from '../fields/related-persons.js'
-import { expertises } from '../fields/expertises.js'
+import { expertises } from '../fields/persons-expertises.js'
+import { offices } from '../fields/persons-offices.js'
 import { featured_image } from '../fields/featured-image.js'
 import { contact } from '../fields/contact.js'
 import { body } from '../fields/body.js'
@@ -32,9 +31,8 @@ const persons = {
         draft,
         title,
         statutes,
-        offices,
         expertises,
-        relatedPersons,
+        offices,
         description,
         featured_image,
         contact,
