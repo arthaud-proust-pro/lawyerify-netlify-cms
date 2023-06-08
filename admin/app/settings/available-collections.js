@@ -1,10 +1,9 @@
 export const availableCollections = [
-    'persons',
     'expertises',
     'offices',
+    'persons',
     'posts',
     'categories',
     'tags',
-    'publications',
-    'statutes'
+    'publications'
 ];
