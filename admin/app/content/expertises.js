@@ -14,14 +14,14 @@ const expertises = {
     description: 'Toutes les expertises (droit du travail, de la famille…)',
 
     editor: { preview: false },
-    // #i18n: true,
-
-    slug: '{{slug}}',
-    path: '{{slug}}/_index',
-    summary: '{{title}}',
+    i18n: true,
 
     nested: { depth: 2 },
     filter: { field: 'isIndex', value: false },
+    
+    slug: '{{slug}}',
+    sortable_fields: ['title'],
+    summary: '{{title}}',
 
     fields: [
         isNotIndex,

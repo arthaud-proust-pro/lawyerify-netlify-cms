@@ -18,13 +18,14 @@ const persons = {
     description: 'Toutes les personnes',
 
     editor: { preview: false },
-    // #i18n: true,
+    i18n: true,
 
     nested: { depth: 2 },
     filter: { field: 'isIndex', value: false },
-    summary: '{{title}}',
 
     slug: '{{slug}}',
+    sortable_fields: ['title'],
+    summary: '{{title}}',
 
     fields: [
         isNotIndex,

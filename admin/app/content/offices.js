@@ -17,14 +17,14 @@ const offices = {
     description: 'Tous les cabinets',
 
     editor: { preview: false },
-    // #i18n: true,
+    i18n: true,
 
     nested: { depth: 2 },
     filter: { field: 'isIndex', value: false },
-    summary: '{{title}}',
-
+    
     slug: '{{slug}}',
-    path: '{{slug}}/_index',
+    sortable_fields: ['title'],
+    summary: '{{title}}',
 
     fields: [
         isNotIndex,
