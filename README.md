@@ -21,6 +21,7 @@
   - categories (posts taxonomy)
   - tags (posts taxonomy)
 - publications
+  - concerned (publications taxonomy)
 - config
   - menu `create false`
     - primary
@@ -37,7 +38,7 @@
 * Hugolify Netlify CMS : [Hugolify template](https://github.com/hugolify/hugolify-netlify-cms)
 
 ## Live demo
-- Front: https://demo.lawyerify.fr
+- Front: https://demo.lawyerify.io
 
 ## Install
 
