@@ -1,24 +1,22 @@
-export const availableBlocks = [
-    'alert',
-    'cta',
-    'informations',
-    'pushes',
-    'datas',
-    'map',
-    'quote',
-    'latest',
-    'editorial',
-    'embed',
-    'faq',
-    'figure',
-    'gallery',
-    'images',
-    // 'instagram',
-    'paragraph',
-    'selectedexpertises',
-    'selectedoffices',
-    'selectedposts',
-    'selectedpersons',
-    'selectedpublications',
-    'title'
-];
+export { block_alert } from "../blocks/alert.js"
+export { block_cta } from "../blocks/cta.js"
+export { block_informations } from "../blocks/informations.js"
+export { block_pushes } from "../blocks/pushes.js"
+export { block_datas } from "../blocks/datas.js"
+export { block_map } from "../blocks/map.js"
+export { block_quote } from "../blocks/quote.js"
+export { block_latest } from "../blocks/latest.js"
+export { block_editorial } from "../blocks/editorial.js"
+export { block_embed } from "../blocks/embed.js"
+export { block_faq } from "../blocks/faq.js"
+export { block_figure } from "../blocks/figure.js"
+export { block_gallery } from "../blocks/gallery.js"
+export { block_images } from "../blocks/images.js"
+// export { block_instagram } from "../blocks/instagram.js"
+export { block_paragraph } from "../blocks/paragraph.js"
+export { block_selectedexpertises } from "../blocks/selected-expertises.js"
+export { block_selectedoffices } from "../blocks/selected-offices.js"
+export { block_selectedposts } from "../blocks/selected-posts.js"
+export { block_selectedpersons } from "../blocks/selected-persons.js"
+export { block_selectedpublications } from "../blocks/selected-publications.js"
+export { block_title } from "../blocks/title.js"
