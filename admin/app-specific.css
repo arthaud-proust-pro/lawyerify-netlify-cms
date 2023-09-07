@@ -9,12 +9,6 @@
     width: auto;
 }
 
-aside [href="#/collections/offices"] span::before {
-    content: '\F1DD';
-}
-aside [href="#/collections/expertises"] span::before {
-    content: '\F585';
-}
-aside [href="#/collections/statutes"] span::before {
+aside [href="#/collections/persons_statutes"] span::before {
     content: '\F8A7';
 }
