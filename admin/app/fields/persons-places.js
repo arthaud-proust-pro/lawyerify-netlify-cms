@@ -1,8 +1,10 @@
-export const offices = {
-    name: 'persons_offices',
-    label: 'Rattaché à un ou plusieurs cabinets ?',
+import {t} from "../i18n/translater.js";
+
+export const places = {
+    name: 'persons_places',
+    label: t.fields.persons_places,
     widget: 'relation',
-    collection: 'offices',
+    collection: 'places',
     search_fields: ['title'],
     value_field: '{{filename}}',
     display_fields: ['title'],

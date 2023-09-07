@@ -1,6 +1,6 @@
 export const availableSections = [
     "posts",
-    "offices",
+    "places",
     "expertises",
     "publications",
     "persons"
