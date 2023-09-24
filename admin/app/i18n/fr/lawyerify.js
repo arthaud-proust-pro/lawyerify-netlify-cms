@@ -1,28 +1,35 @@
 import { overrideTranslations } from '../overrider.js';
+import { blocks } from './blocks.js';
+import { config } from './config.js';
+import { content } from './content.js';
+import { fields } from './fields.js';
+import { shortcodes } from './shortcodes.js';
 
-import { blocks as baseBlocks } from './blocks.js';
-export const blocks = overrideTranslations(baseBlocks, {
-    selectedplaces: "Sélection de cabinets"
-})
-
-export * from './config.js';
-
-import { content as baseContent } from './content.js';
-export const content = overrideTranslations(baseContent, {
-    places: {
-        label: "Cabinets",
-        label_singular: "Cabinet",
-        description: "Tous les cabinets"
+export const lawyerify = overrideTranslations(
+    {
+        blocks,
+        config,
+        content,
+        fields,
+        shortcodes
+    },
+    {
+        blocks: {
+            selectedplaces: "Sélection de cabinets"
+        },
+        content: {
+            places: {
+                label: "Cabinets",
+                label_singular: "Cabinet",
+                description: "Tous les cabinets"
+            }
+        },
+        fields: {
+            places_items: "Cabinets",
+            place: "Cabinet",
+            persons_expertises: "Expert en ?",
+            persons_places: "Rattaché à un ou plusieurs cabinets ?",
+            persons_statutes: "Satuts"
+        }
     }
-})
-
-import { fields as baseFields} from './fields.js';
-export const fields = overrideTranslations(baseFields, {
-    places_items: "Cabinets",
-    place: "Cabinet",
-    persons_expertises: "Expert en ?",
-    persons_places: "Rattaché à un ou plusieurs cabinets ?",
-    persons_statutes: "Satuts"
-})
-
-export * from './shortcodes.js';
+);
